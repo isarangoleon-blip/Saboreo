@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+   background-color: #63442b;
+}
+
+header,
+footer {
+  padding: 20px;
+  background-color: #462f1d;
+  color: white;
+}
+
+
+.logo-nav,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-image img {
+  margin: 20px;
+  width: 100%;
+  
+}
+
+nav a,
+a {
+  text-decoration: none;
+  color: white;
+  background-color: #462f1d;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+}
+
+header a:hover,
+a:hover {
+  background-color: rgb(54, 27, 2);
+  color: white;
+  text-transform: uppercase;
+
+}
+
+main {
+  padding: 30px;
+}
+
+.mision,
+.vision,
+.info {
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  display: block;
+  color: white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2, p{
+  margin-bottom: 1px;
+}
+
+
+.galeria,
+.galeria-2 {
+  width: 70%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+
+.galeria img {
+  width: 25%;
+  height: 250px;
+  border-radius: 8px;
+}
+
+.galeria-2 img {
+  width: 22%;
+  height: 280px;
+  border-radius: 8px;
+}
+
+.info a {
+  background-color: transparent;
+  text-decoration: underline;
+  text-transform: none;
+  display: inline;
+}
+
+.info a:hover {
+  color: #3b2615;
+}
+
+.contactanos {
+  color: white;
+  padding: 60px 0;
+  width: 60%;
+  margin: 40px auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contactanos-imagen {
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.contactanos-imagen img {
+  width: 90%;
+  height: 90%;
+}
+
+.contactanos-contenido {
+  flex-wrap: wrap;
+  padding: 0 40px;
+}
+
+.contactanos-contenido h1,
+p {
+  margin-bottom: 15px;
+}
+
+.footer-image {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.footer-image img {
+  margin: 10px;
+  width: 50%;
+  height: auto;
+}
+
+
+@media(max-width: 922px) {
+  .header-image, .galeria, .galeria-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #contactanos {
+    flex-direction: column;
+    height: 80vh;
+    width: auto;
+    justify-content: center;
+  }
+
+}
