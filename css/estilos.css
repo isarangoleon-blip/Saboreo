@@ -85,6 +85,13 @@ h2, p{
   flex-wrap: wrap;
 }
 
+.galeria,
+.galeria-2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 5px;
+}
 
 .galeria img {
   width: 25%;
